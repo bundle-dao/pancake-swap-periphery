@@ -1,5 +1,5 @@
 {
-  "name": "pancakeswap-peripheral",
+  "name": "@bundle-dao/pancakeswap-peripheral",
   "version": "1.1.0-beta.0",
   "description": "🎚 Peripheral smart contracts for interacting with pancake",
   "engines": {
@@ -8,7 +8,7 @@
   "homepage": "https://pancakeswap.finance",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pancakeswap/pancake-swap-periphery.git"
+    "url": "git+https://github.com/pancakeswap/pancake-swap-periphery.git"
   },
   "files": [
     "build",
@@ -43,8 +43,15 @@
     "compile": "waffle .waffle.json",
     "postcompile": "yarn copy-v1-artifacts",
     "pretest": "yarn compile",
-    "test": "mocha",
-    "prepublishOnly": "yarn test"
+    "test": "mocha"
   },
-  "license": "GPL-3.0-or-later"
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/pancakeswap/pancake-swap-periphery/issues"
+  },
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "author": ""
 }

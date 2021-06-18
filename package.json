@@ -1,6 +1,6 @@
 {
   "name": "@bundle-dao/pancakeswap-peripheral",
-  "version": "1.1.0-beta.0",
+  "version": "1.1.1",
   "description": "🎚 Peripheral smart contracts for interacting with pancake",
   "engines": {
     "node": ">=10"

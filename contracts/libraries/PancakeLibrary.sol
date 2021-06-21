@@ -16,7 +16,7 @@ library PancakeLibrary {
     }
 
     // calculates the CREATE2 address for a pair without making any external calls
-    function pairFor(address factory, address tokenA, address tokenB) internal pure returns (address pair) {
+    function pairFor(address factory, address tokenA, address tokenB) internal view returns (address pair) {
         pair = IPancakeFactory(factory).getPair(tokenA, tokenB);
     }
 
